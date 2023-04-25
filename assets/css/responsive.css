@@ -1,0 +1,62 @@
+/* =============***==============
+Responsive CSS for Common CSS
+=============***============== */
+
+/* Min Width 1200px and Max Width 1399px */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .blog-slide-content a {
+    font-size: 22px;
+  }
+}
+
+/* Min Width 992px and Max Width 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .newsletter-content h2 {
+    font-size: 40px;
+  }
+}
+
+/* Min Width 768px and Max Width 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .v-blog-content h3 {
+    font-size: 28px;
+  }
+
+  .newsletter-content h2 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+}
+
+/* Min Width 300px and Max Width 767px */
+@media (min-width: 300px) and (max-width: 767px) {
+  .blog-slide-content a,
+  .category-card-content h3 {
+    font-size: 22px;
+  }
+
+  .featured-news-wrapper {
+    padding-top: 0;
+  }
+
+  .v-blog-content h3,
+  .post-title h4 {
+    font-size: 24px;
+  }
+
+  .newsletter-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .newsletter-form-input {
+    max-width: 60%;
+    width: 100%;
+  }
+
+  .subscribe-btn {
+    max-width: 40%;
+    width: 100%;
+    padding-left: 20px;
+  }
+}
